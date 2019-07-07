@@ -18,7 +18,8 @@ def check_for_max(mir_words):
             maxes.append(i)
 
     for n in maxes:
-        print(mir_words[n])
+        print("All of them: " + str(mir_words))
+        print("Longest word: " + mir_words[n])
 
 
 """
@@ -37,9 +38,8 @@ for word in scrabble.fonts:
 for word in scrabble.fonts:
 
     if word == word[::-1]:  # compare to reversed version
-        print(word)
+        #print(word)
         mir_words.append(word)
-        print(mir_words)
 
 
 check_for_max(mir_words)

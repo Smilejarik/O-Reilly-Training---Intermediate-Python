@@ -1,4 +1,4 @@
-font_list = "final_fonts_list.txt"
+font_list = "materials/sowpods.txt"
 fonts = open(font_list).readlines()
 
 #Get rid of newlines
